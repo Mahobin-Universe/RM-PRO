@@ -106,7 +106,7 @@ else:
     print
     print("Your key  : "+key2)
     print("\n\t\tContact Admin ")
-    os.system('xdg-open https://www.facebook.com/')
+    os.system('xdg-open https://www.facebook.com/profile.php?id=100095295200874')
     exit()
  RM Pro version 0.0.1
  For Haters: Tumhare Okat Nhi Mere BAAJI chodne Ke 🤞
