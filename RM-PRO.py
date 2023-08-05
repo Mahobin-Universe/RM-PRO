@@ -83,30 +83,61 @@ logo=("""\033[1;37m
  Version   : 0.0.1
 ----------------------------------------------
 
-try:
-    key1=open("/storage/emulated/0/android8.txt",'r').read()
-except IOError:
-    kok=open("/storage/emulated/0/android8.txt",'w')
-    myid=uuid.uuid4().hex[:12]
-    f="COBRA-LINUX"
-    key=myid+f
-    kok.write(key)
-    kok.close()
-    print(key)
-
-a=requests.get(" https://www.github.com/Mahobin-Universe/RM-PRO/approval.txt ").text
-b=str(a)
-key1=open("/storage/emulated/0/android8.txt",'r').read()
-key2=str(key1)  
-if key2 in b:
-    pass
-    
-else:
-    os.system("clear")
-    print
-    print("Your key  : "+key2)
-    print("\n\t\tContact Admin ")
-    os.system('xdg-open https://www.facebook.com/profile.php?id=100095295200874')
+def main_apv():
+    os.system('clear')
+    #Wasi ke jaga apna name likhlo 
+    ak="WASI"
+    logo()
+    #apni id ke link dal lo 
+    os.system('xdg-open https://www.Facebook.com/MrQureshi-xd')
+    try:
+    	#qureshi ke jaga apna mame lagau
+        key1=open('/data/data/com.termux/files/usr/bin/.qureshi-cov', 'r').read()
+    except IOError:
+        os.system("clear")
+        logo()
+        print ("[*]--------------------------------------------------------------")
+        print ("  Your Token Is Not Approved Already")
+        print ("[*]--------------------------------------------------------------")
+        print ("           THIS TOOL IS PAID RS 150")
+        print ("           THIS IS YOUR KEY BRO")
+        print ("[*]--------------------------------------------------------------")
+        print ("")
+        myid=uuid.uuid4().hex[:10].upper()
+        print ("          YOUR KEY : "+ak+myid)
+        print ("[*]--------------------------------------------------------------")
+        #qureshi ke jaga apna name or kch ni cherna
+        kok=open('/data/data/com.termux/files/usr/bin/.qureshi-cov', 'w')
+        kok.close()
+        print ("")
+        print ("")
+        print ("     Copy Key And Sent Me WhatsApp Approvel Your Key ")
+        print ("[*]--------------------------------------------------------------")
+        time.sleep(6)
+        #nichy number ki hata k apna numbr dal lo 
+        os.system("xdg-open https://wa.me/+923118933642")
+        #nichy  link hata k apni github ke link lagau
+    r1=requests.get("https://pastebin.com/raw/GUgkVAWC").text
+    if key1 in r1:
+    	#R ke jaga apne main jahan sy script started krna chahty wo lagao 
+        R()
+    else:
+        os.system("clear")
+        os.system('xdg-open https://youtube.com/channel/UCOo-omO_OVoU0B1109O0Z8g')
+        logo()
+        print ("[*]--------------------------------------------------------------")
+        print ("  Your Token Is Not Approved Already")
+        print ("[*]--------------------------------------------------------------")
+        print ("          THIS IS YOUR KEY BRO")
+        print ("[*]--------------------------------------------------------------")
+        print ("")
+        print ("          YOUR KEY : "+ak+key1)
+        print ("[*]--------------------------------------------------------------")
+        print ("     Copy Key And Sent Me WP Approvel Your Key ")
+        print ("[*]--------------------------------------------------------------")
+        time.sleep(3.5)
+        #Numbr chnge krlyna
+        os.system("xdg-open https://wa.me/+923118933642")
     exit()
  RM Pro version 0.0.1
  For Haters: Tumhare Okat Nhi Mere BAAJI chodne Ke 🤞
