@@ -1,8 +1,8 @@
 # Obfuscated with PyObfuscate
-#ENCRYPTED BY :ANONYMOUS U7P4L
+#ENCRYPTED BY : MAHOBIN RAHMAN 
 #VERSION :ALPHA
-#GITHUB : https://github.com/U7P4L-IN
-#FEEL THE POWER OF U7P4L...
+#GITHUB : https://github.com/Mahobin-Universe
+#FEEL THE POWER OF MAHOBIN...
 # Time : Tue Aug 15 13:39:57 2023
 # -------------------------------
 ###------------------------------MAIN>MENU-----------------------------###
